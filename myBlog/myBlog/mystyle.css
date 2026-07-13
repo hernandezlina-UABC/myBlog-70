@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    background-color: #8d8d8d;
+    color: white;
+    line-height: 2;
+    img {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+    }
+    h1 {
+        color: red;
+        background-color: black;
+    }
+    li {
+        color: greenyellow;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    ul{
+        img{ 
+            width: 450px;
+            height: 200px;
+        }
+    }
+}
