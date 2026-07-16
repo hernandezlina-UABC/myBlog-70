@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="header-flex">
+        <div class="header-title">
+            <!-- <span> is used for styling a part of the text, is this line of code below correct?-->
+            <h1>CONTACT</h1>
+        </div>
+        <div class="header-footer">
+            <div class="header-menu">
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="agents.html">Agents</a>
+                    <a href="contact.html"><span>Contact</span></a>
+                </nav>
+            </div>
+            <div class="header-button">
+            <a href="#" class="btn">Submit a comment</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Contact Us</h2>
+                <p> Leave us your comments, recomendations, or an application to be part of the 
+                    contribution team.</p>
+            </div>
+            <!--action will be use in the furter-->
+        <form action="">
+            <div class="full-name">
+                <div class="input-container first-name">
+                    <label>Name: </label>
+                    <input type="text" placeholder="Your name" id="txtName" name="user_name">
+                </div>
+                <div class="input-container">
+                    <label>Last Name: </label>
+                    <input type="text" placeholder="Your last name" ="txtLastname" name="user_lastname">
+                </div>
+            </div>
+            <div class="input-container">
+                <label>Email: </label>
+                <input type="email" placeholder="user@example.com" id="email" name="user_email">
+            </div>
+            <div class="input-container">
+                <label>Subject: </label>
+                <input type="text" id="subject" name="comment_subject">
+            </div>
+            <div class="input-container">
+                <label>Comment: </label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-form">Send</button>
+            </div>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <p> The information might be outdated </p>
+        <p>© 2026 Created by Lina Hernandez</p>
+    </footer>
+</body>
+</html>
