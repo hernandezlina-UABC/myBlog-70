@@ -15,12 +15,12 @@ body{
     display: inline-block;
     background-color: rgb(217, 255, 0);
     padding: 6px; /* padding is for more "boton" space*/
-    border-radius: 5px;
+    border-radius: 7px;
     color: black;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: 1px;
     margin-bottom: 8px;
 }
@@ -81,7 +81,6 @@ img{
     margin-bottom: 2vh;
 
 }
-
 footer{
     color: crimson;
     background: black;
@@ -90,4 +89,82 @@ footer{
     font-weight: normal;
     font-size: 10px;
     height: 35px;
+}
+/* form */
+.form-container{
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+h2{
+    margin-bottom: 6px;
+}
+p{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.input-container{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.full-name{
+    display: flex;
+    flex-direction: row;
+}
+.full-name .input-container{
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+}
+.first-name{
+    margin-right: 20px;
+}
+
+.full-name .input-container input{
+    width: 100%;
+}
+.full-name label{
+    min-width: 60%;
+}
+/*parent child*/
+.input-container label{    
+    width: 14%;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.input-container input{
+    background-color: rgb(225, 225, 228);
+    width: 100% ;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+}
+.form-container textarea{
+    background-color: rgb(225, 225, 228);
+    width: 100%;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    min-height: 20vh;
+    max-width: 100%;
+}
+.btn-form{
+    padding: 10px;
+    width: 100px;
+    border: none;
+}
+
+.btn-container{
+    /* display: flex; */
+    text-align: right;
+    margin-top: 3%;
 }
